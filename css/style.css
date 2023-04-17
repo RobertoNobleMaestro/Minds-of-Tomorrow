@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.row {
+    content: "";
+    clear: both;
+}
+.column-2{
+    width: 100%;
+    display: flex;
+    float: left;
+    background-color: aquamarine;
+}
+.column-4{
+    width: 25%;
+    display: flex;
+    float: left;
+    background-color: blueviolet;
+}
+.column-3{
+    width: 50%;
+    display: flex;
+    float: left;
+    background-color: chocolate;
+}
+.estilo{
+    border: 1px solid black;
+}
