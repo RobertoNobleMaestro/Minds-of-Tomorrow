@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 /* estructura */
 html{
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
-
 .row {
     content: "";
     clear: both;
+    padding-bottom: 100px;
 }
 .column-2{
     width: 100%;
     display: flex;
     float: left;
+    text-align: center;
 }
 .column-4{
     text-align: center;
@@ -26,20 +29,24 @@ html{
 /* Estilos de imagenes */
 img{
     height: 100%;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
+.se4{
+    width: 100%;
+}
 /* Letras */
 h1{
-
+    font-size: 70px;
+    text-align: center
 }
 h2{
-
+    font-size: 45px;
 }
 h3{
-
+    font-size: 25px;
 }
 p{
-
+    font-size: 12px;
 }
