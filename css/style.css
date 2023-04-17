@@ -1,5 +1,6 @@
-*{
-    box-sizing: border-box;
+/* estructura */
+html{
+    font-family: 'Poppins', sans-serif;
 }
 
 .row {
@@ -10,20 +11,35 @@
     width: 100%;
     display: flex;
     float: left;
-    background-color: aquamarine;
 }
 .column-4{
+    text-align: center;
     width: 25%;
-    display: flex;
     float: left;
-    background-color: blueviolet;
 }
 .column-3{
     width: 50%;
-    display: flex;
     float: left;
-    background-color: chocolate;
+    height: 400px;
+    text-align: center;
 }
-.estilo{
-    border: 1px solid black;
+/* Estilos de imagenes */
+img{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Letras */
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+p{
+
 }
