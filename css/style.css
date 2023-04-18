@@ -2,21 +2,20 @@
 /* estructura */
 html{
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
 }
 .row {
     content: "";
     clear: both;
     display: flex;
-    padding-bottom: 60px;
 }
-#fl{
+.fl{
     display: block;
     clear: both;
 }
 .column-2{
     width: 100%;
     text-align: center;
+    padding-bottom: 30px;
 }
 .column-4{
     text-align: center;
@@ -28,10 +27,24 @@ html{
     float: left;
     height: 500px;
     padding: 100px;
-    left: 15%;
 }
 /* Estilos de la estructura */
-
+header{
+    background-image: url(../img/banner-2.jpg);
+    height: 50vh;
+    padding: 400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.col4{
+    background-color: rgb(100, 255, 100);
+}
+#fl1{
+    background-color: blue;
+    height: 200px;
+    padding: 100px;
+}
 /* Estilos de imagenes */
 img{
     height: 100%;
@@ -49,10 +62,14 @@ h1{
 }
 h2{
     font-size: 60px;
+    margin: 0;
+}
+#pad{
+    padding-top: 30px;
 }
 h3{
     font-size: 40px;
 }
 p{
-    font-size: 12px;
+    font-size: 16px;
 }
