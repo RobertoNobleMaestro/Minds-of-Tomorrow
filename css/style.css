@@ -3,6 +3,9 @@
 html{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    margin: 0 auto;  
+}
 .row {
     content: "";
     clear: both;
@@ -15,7 +18,6 @@ html{
 .column-2{
     width: 100%;
     text-align: center;
-    padding-bottom: 30px;
 }
 .column-4{
     text-align: center;
@@ -28,6 +30,13 @@ html{
     height: 500px;
     padding: 100px;
 }
+.column-i{
+    width: 50%;
+    float: left;
+    height: 500px;
+    margin: 80px;
+    text-align: center;
+}
 .fotp{
     width: 50%;
     float: left;
@@ -35,7 +44,7 @@ html{
 /* Estilos de la estructura */
 header{
     background-image: url(../img/banner-2.jpg);
-    height: 50vh;
+    height: 100vh;
     padding: 400px;
     background-size:cover;
     background-repeat:no-repeat;
@@ -53,7 +62,7 @@ footer{
 #fl1{
     background-color: blue;
     height: 200px;
-    padding: 100px;
+    padding: 80px;
 }
 /* Estilos de imagenes */
 img{
@@ -74,8 +83,8 @@ h2{
     font-size: 60px;
     margin: 0;
 }
-#pad{
-    padding-top: 30px;
+.h2b{
+    font-size: 80px;
 }
 h3{
     font-size: 40px;
@@ -86,3 +95,47 @@ p{
 .pcf{
     padding-left: 100px;
 }
+@media screen and (max-width:700px) {
+    header{
+        height: 100vh;
+        padding: 100px;
+    }
+    footer{
+        height: 200px;  
+        padding: 0px;
+    }
+    .column-4{
+        width: 50%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .fl{
+        width: 100%;
+    }
+    .column-2{
+        width: 100%;
+        text-align: center;
+    }
+    .column-3{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .fotp{
+        width: 100%;
+        float: left;
+    }
+    .column-i{
+        width: 100%;
+        margin: 10 auto;
+        text-align: center;
+    }
+    #fl1{
+        height: 200px;
+        padding: 0px;
+    }
+    .h2b{
+        font-size: 50px;
+    }
+    }
