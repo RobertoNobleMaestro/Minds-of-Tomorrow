@@ -27,14 +27,14 @@ body{
 .column-3{
     width: 50%;
     float: left;
-    height: 500px;
+    height: 100%;
     padding: 100px;
 }
 .column-i{
     width: 50%;
     float: left;
-    height: 500px;
-    margin: 80px;
+    height: 100%;
+    margin: 90px;
     text-align: center;
 }
 .fotp{
@@ -61,7 +61,7 @@ footer{
 }
 #fl1{
     background-color: blue;
-    height: 200px;
+    height: 100%;
     padding: 80px;
 }
 /* Estilos de imagenes */
@@ -95,6 +95,9 @@ p{
 .pcf{
     padding-left: 100px;
 }
+.h2c{
+    font-size: 80px;
+}
 @media screen and (max-width:700px) {
     header{
         height: 100vh;
@@ -121,6 +124,7 @@ p{
         width: 100%;
         flex-wrap: wrap;
         padding: 30px;
+        height: 100%;
     }
     .fotp{
         width: 100%;
@@ -128,14 +132,16 @@ p{
     }
     .column-i{
         width: 100%;
-        margin: 10 auto;
+        margin: 0px;
         text-align: center;
     }
     #fl1{
-        height: 200px;
         padding: 0px;
     }
     .h2b{
+        font-size: 70px;
+    }
+    .h2c{
         font-size: 50px;
     }
     }
